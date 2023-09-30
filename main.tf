@@ -11,7 +11,7 @@ provider "tfe" {
 }
 
 resource "tfe_workspace" "foo" {
-  name         = "foo"
+  name         = "tfe_provider_repo"
 
   vcs_repo {
     identifier = "RahulPanchal0110/tfe_provider_repo"
